@@ -26,7 +26,7 @@ const DashBoard = () => {
 
       <h3>DashBoard</h3>
       <div>
-        <button onClick={() => setBall(ball+1)}>Ball</button>
+        <button onClick={() => setBall(ball+1)} test-id="ball-click">Ball</button>
         <button onClick={() => setBall(0) + setStrike(0)}>Hit</button>
       </div>
       <div>
